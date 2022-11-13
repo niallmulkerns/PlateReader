@@ -7,7 +7,7 @@ from platform import system as OS
 
 class Weather:
     def __init__(self, cityName="London"):
-        self.api_key = "267c007189856fcb6e76738070d5021f"
+        self.api_key = "xxxxx"
         self.city = cityName
         self.country_code = 826 # Uk code iso 3166?
         self.numDataPoints = 24*5//3 # number of 3hr data points in 5 days
