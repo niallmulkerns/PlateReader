@@ -63,7 +63,11 @@ This application simply displays images on the screen, and allows you to move be
 
 ## Radio
 
-This application allows you play any online radio station that has an available free stream. Currently this is set to be a few UK radio stations, but this can be changed by simply updating `self.stations` to include the display name and the link. There are also a few available visualisers, but one of the main things that would be nice would be a real time fft analysis of the signal (though this may not be feasible given the limited processing power of the RPI). **NB: This will not work if you are using a screen that does not have audio capabilities!**
+**NB: This will not work if you are using a screen that does not have audio capabilities!**
+This application allows you play any online radio station that has an available free stream. Currently this is set to be a few UK radio stations, but this can be changed by simply updating `self.stations` to include the display name and the link. There are also a few available visualisers, but one of the main things that would be nice would be a real time fft analysis of the signal (though this may not be feasible given the limited processing power of the RPI). The radio will continue to work even when the application window is changed.
+
+### To do/known bugs:
+- Implement a real-time audio fft visualiser (may require external microphone).
 
 
 ## *Unused Currently: Visualiser*
